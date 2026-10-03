@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>App PDF Viewer</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=DM+Sans:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; background: #0E0F13; color: #F3F4F6; font-family: 'DM Sans', sans-serif; display: flex; flex-direction: column; overflow: hidden;">
+
+  <div style="padding: 28px 20px 16px; display: flex; align-items: center; gap: 14px;">
+    <a href="AppPapers.dc.html" aria-label="Back" style="width: 44px; height: 44px; border-radius: 14px; border: 1px solid #2A2D38; background: #181A21; color: #F3F4F6; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m11 6-6 6 6 6"/></svg>
+    </a>
+    <div style="flex-grow: 1; min-width: 0;">
+      <div style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px;">Software Engineering</div>
+      <div style="font-size: 13px; color: #A3A8B8;">2025 &middot; Regular</div>
+    </div>
+    <span style="padding: 5px 12px; border-radius: 999px; background: #21242D; color: #C8FF3D; font-size: 12px; font-weight: 700; flex-shrink: 0;">Offline</span>
+  </div>
+
+  <!-- paper -->
+  <div style="flex-grow: 1; min-height: 0; margin: 0 20px; border-radius: 20px; background: #21242D; padding: 18px; position: relative; overflow: hidden;">
+    <div style="background: #F3F4F6; color: #0E0F13; border-radius: 6px; padding: 22px 20px; height: 100%; box-sizing: border-box; display: flex; flex-direction: column; gap: 12px; overflow: hidden;">
+      <div style="text-align: center; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 0.5px;">BCA &middot; FIFTH SEMESTER</div>
+      <div style="text-align: center; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 20px;">Software Engineering</div>
+      <div style="display: flex; justify-content: space-between; font-size: 11px; color: #5B6070;"><span>Time: 3 hours</span><span>Max marks: [ XX ]</span></div>
+      <div style="height: 1px; background: #BFC3CE;"></div>
+      <div style="height: 8px; border-radius: 4px; background: #D3D6DE;"></div>
+      <div style="height: 8px; border-radius: 4px; background: #D3D6DE; width: 92%;"></div>
+      <div style="height: 8px; border-radius: 4px; background: #D3D6DE; width: 70%;"></div>
+      <div style="height: 8px;"></div>
+      <div style="height: 8px; border-radius: 4px; background: #D3D6DE;"></div>
+      <div style="height: 8px; border-radius: 4px; background: #D3D6DE; width: 86%;"></div>
+      <div style="height: 8px; border-radius: 4px; background: #D3D6DE; width: 95%;"></div>
+      <div style="height: 8px; border-radius: 4px; background: #D3D6DE; width: 52%;"></div>
+      <div style="height: 8px;"></div>
+      <div style="height: 8px; border-radius: 4px; background: #D3D6DE;"></div>
+      <div style="height: 8px; border-radius: 4px; background: #D3D6DE; width: 78%;"></div>
+      <div style="height: 8px; border-radius: 4px; background: #D3D6DE; width: 90%;"></div>
+      <div style="margin-top: auto; text-align: center; font-size: 11px; color: #5B6070;">papervault - question papers for students</div>
+    </div>
+    <div style="position: absolute; left: 50%; bottom: 30px; transform: translateX(-50%); padding: 6px 14px; border-radius: 999px; background: #0E0F13; color: #F3F4F6; font-size: 12px; font-weight: 700;">Page 1 of 4</div>
+  </div>
+
+  <!-- actions -->
+  <div style="padding: 16px 20px 24px; display: flex; gap: 10px;">
+    <button style="flex-grow: 1; height: 52px; border-radius: 14px; border: 0; background: #C8FF3D; color: #0E0F13; font-family: inherit; font-size: 15px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; gap: 8px;">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M5 21h14"/></svg>
+      Save offline
+    </button>
+    <button aria-label="Bookmark" style="width: 52px; height: 52px; border-radius: 14px; border: 1px solid #2A2D38; background: #181A21; color: #F3F4F6; display: inline-flex; align-items: center; justify-content: center;">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg>
+    </button>
+    <button aria-label="Share link" style="width: 52px; height: 52px; border-radius: 14px; border: 1px solid #2A2D38; background: #181A21; color: #F3F4F6; display: inline-flex; align-items: center; justify-content: center;">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+    </button>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
